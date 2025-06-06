@@ -3,7 +3,6 @@ public:
     int search(vector<int>& nums, int target) {
 
         int ans = -1, start = 0, end = nums.size() - 1 , mid;
-
         while(start<=end)
         {
             mid = start + (end - start)/2;
