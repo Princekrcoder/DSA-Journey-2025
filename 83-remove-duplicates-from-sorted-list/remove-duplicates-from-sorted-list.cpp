@@ -19,11 +19,10 @@ public:
 
         while (tail != nullptr) {
 
-            if (temp->val == tail->val) {
+            if(temp->val == tail->val){
                 temp->next = tail->next;
                 tail = tail->next;
-            }
-            else {
+            } else{
                 temp = tail;
                 tail = tail->next;
             }
